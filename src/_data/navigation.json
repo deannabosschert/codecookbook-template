@@ -1,0 +1,125 @@
+{
+    "sidebar": {
+        "overview": [
+            {
+            "introduction": [
+                {"Code Cookbook" : ["Wat", "Wie", "Hoe", "Waar", "Wanneer", "Waarom"]}             
+            ]},      
+         {
+            "workflow": [
+                {"overview" : ["ontwerpproces", "wie", "tools"]},
+                {"handoff": ["design"]} ,
+                {"development": ["proces"]}           
+            ]},      
+            {
+            "project": [
+                {"project-info" : ["concept"]},
+                {"visuals" : ["screenshots"]}
+             
+            ]},
+            {
+            "progress": [
+                {"current": ["milestones","requirements", "system overview"]},
+                {"to-do": ["now", "future"]}
+            ]}
+        ],
+        "design": [{
+                "ontwerp": [
+                    {"design": ["mobile design", "desktop design"]},
+                    {"componenten": ["overzicht", "states", "animaties"]},
+                    {"fonts": [ "preview", "license information"]},
+                    {"afbeeldingen": ["content", "iconen", "favicon"]}
+                      ]   
+            },
+            {
+                "bestanden": [
+                    {"fonts": ["files", "license information", "embed-links"]},
+                    {"afbeeldingen": ["content", "iconen", "favicon"]}
+                ]
+            },
+            {
+                "variabelen": [
+                    {"colors": ["primary", "secondary", "highlight"]},
+                    {"typography": ["font-size", "font-family", "font-weight", "letter-spacing", "line-height"]},
+                    {"distances": ["grid", "spacing", "layout"]}
+                ]
+            },
+            {
+                "context": [
+                    {"visie": [ "visie", "doelgroep", "testscenario's"]},
+                    {"outlines": ["functioneel ontwerp", "technisch ontwerp", "testscenario's"]},
+                    {"componenten": ["definities", "complexiteit", "notities"]}
+                ]
+            }
+        ],
+        "development": [
+            {
+                "checklists": [
+                {"generic": ["Definition of Done"]},
+                {"audits": [
+                    "Lighthouse",
+                    "SEranking"
+                ]}]
+            },
+            {
+                "coding-guidelines": [
+                    {"best-practices": ["list"]},
+                    {"programming-principles": ["KISS", "DRY", "YAGNI", "SOLID", "SoC", "APO", "LoD"]},
+                    {"naming-conventions": ["casing"]},
+                    {"formatting": ["ESlint", "code comments", "commented out code", "documentation"]},
+                    {"HTML": ["semantics", "accessibility"]},
+                    {"CSS": ["sCSS", "selectors", "z-index"]},
+                    {"JavaScript": ["pure functions", "arrow functions"]}
+                ]
+            },
+            {
+                "git": [
+                   {"project-management": ["flow overview", "issues"]},
+                   {"version-control": ["branches", "commit messaging", "gitignore"]},
+                   {"collaboration": ["GitHub/GitLab", "pull requests", "code reviews"]}
+                ]
+            },
+            {
+                "deployment": [
+                    {"environments": ["acceptatie/productie"]},
+                    {"CI-CD": ["continuous integration", "continuous delivery", "continuous deployment"]},
+                    {"server-connection": ["server", "database", "authentication", "commands"]}
+                ]
+            }
+        ],
+        "resources": [
+            {
+                "examples": [
+                    {"templates": ["11ty-Netlify", "Vue.js"]},
+                    {"projects": ["Holiday Rentals Curacao", "Active Collective"]}
+                ]
+            },
+            {
+                "code-snippets": [
+                    {"HTML-CSS": ["navigation", "forms", "animations"]},
+                    {"JavaScript": ["sign-up", "login", "sockets"]},
+                    {"Node.js": ["api", "authentication", "database"]}
+                ]
+            },
+            {
+                "tools": [
+                    {"applications": ["cleanshot", "bettertouchtool", "postman-app"]},
+                    {"text-editors": ["visual studio code", "intellj idea", "atom"]}
+                ]
+            },
+            {
+                "toffe-dingen": [
+                    {"generic": ["newsletters"]},
+                    {"design": ["miro", "pudding.cool"]},
+                    {"development": ["css-tricks"]},
+                    {"personal": ["timemator", "trello"]}
+                ]
+            },
+            {
+                "hacks": [
+                    {"oplossingen": ["hacky oplossingen"]}
+                ]
+            }
+        ]     
+    }
+}

@@ -1,0 +1,8 @@
+---
+layout: templates/_base.html
+pageType: 'detailPage'
+breadcrumbs: [{ name: "Home", link: "/" }, { name: "{{ parent }}", link: "/{{ parent }}/"}, { name: "{{ pageName }}", link: "/{{ parent }}/{{ pageName }}" }]
+---
+{%- from "system/component.njk" import component -%}
+
+{{ content | safe }}

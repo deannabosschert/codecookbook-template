@@ -1,0 +1,22 @@
+.c-page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  max-width: 1075px;
+
+  margin-top: $desktop-s;
+  margin-bottom: $desktop-xl;
+
+
+  .header__title {
+      margin-bottom: $desktop-xs;
+    }
+  
+
+  .page-header__info {
+    color: $gray-1;
+  }
+}

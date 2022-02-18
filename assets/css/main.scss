@@ -1,0 +1,82 @@
+// GENERIC
+@import "generic/generic.box-sizing";
+// @import "generic/generic.normalize";
+@import "generic/generic.reset";
+
+// SETTINGS
+@import "settings/settings.color";
+@import "settings/settings.font";
+@import "settings/settings.layout";
+@import "settings/settings.spacing";
+// @import "settings/settings.variables";
+
+
+// ELEMENTS
+@import "elements/elements.typography";
+@import "elements/elements.page";
+@import "elements/elements.forms";
+@import "elements/elements.images";
+@import "elements/elements.icons";
+@import "elements/elements.buttons";
+@import "elements/elements.table";
+
+// COMPONENTS
+// sections
+@import "components/sections/components.footer";
+@import "components/sections/components.header";
+@import "components/sections/components.sidebar";
+@import "components/sections/components.sidebar-hb";
+@import "components/sections/components.page-header";
+
+// organisms
+@import "components/organisms/components.header-nav";
+@import "components/organisms/components.search-bar";
+@import "components/organisms/components.toggle";
+@import "components/organisms/components.toggle-hb";
+
+// molecules
+@import "components/molecules/components.article";
+@import "components/molecules/components.breadcrumbs";
+@import "components/molecules/components.pageInfo";
+
+// atoms
+@import "components/atoms/components.callToAction";
+@import "components/atoms/components.graph";
+@import "components/atoms/components.image";
+@import "components/atoms/components.logo";
+@import "components/atoms/components.pageHeaderStripe";
+
+// all that has to be moved to seperate modules later
+@import "components/components.all";
+
+// UTILITIES
+@import "utilities/utilities.hide";
+
+
+// PAGE-SPECIFIC STYLING
+@import "pages/design/pages.bestanden";
+@import "pages/design/pages.ontwerp";
+@import "pages/design/pages.context";
+@import "pages/design/pages.variabelen";
+
+@import "pages/development/pages.checklists";
+@import "pages/development/pages.git";
+@import "pages/development/pages.guidelines";
+@import "pages/development/pages.deployment";
+
+@import "pages/resources/pages.codesnippets";
+@import "pages/resources/pages.examples";
+@import "pages/resources/pages.tools";
+@import "pages/resources/pages.libraries";
+
+
+@import "pages/templates/pages.home";
+@import "pages/templates/pages.subpage";
+@import "pages/templates/pages.detail";
+
+@import "pages/about.scss";
+
+@import "elements/elements.mediaqueries";
+
+// CMS STYLING FOR PREVIEW
+@import "admin/admin.preview";

@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    height: fit-content;
+    width: fit-content;
+
+    th, td, tr {
+
+        &:first-of-type {
+            text-align: right;
+        }
+
+        &:last-of-type {
+            text-align: left;
+        }
+    }
+
+    th {
+        color: $brand;
+        padding-bottom: $desktop-xxxs;
+        border-bottom: 1px solid $body-gray;
+        padding: $desktop-xxxs $desktop-xxs;
+    }
+
+    tr {
+        border-bottom: 0.1px solid $gray-3;
+        border-left: 0.1px solid $body-gray;
+        border-right: 0.1px solid $body-gray;
+
+
+
+        &:first-of-type {
+            border: 0;
+        }
+
+        &:last-of-type {
+            border-bottom: 2px solid $gray-1;
+        }
+    }
+
+    td {
+        padding: $desktop-xxs $desktop-s;
+        &:first-of-type {
+            padding: $desktop-xs;
+        }
+        // border: 0.1px solid $gray-2;
+        color: $black;
+    }
+
+
+}

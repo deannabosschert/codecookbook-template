@@ -1,0 +1,112 @@
+/* ========================================================================== */
+/* ELEMENTS- PAGE */
+header,
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  font-family: $font-family-primary, Helvetica Neue, Helvetica, Arial, "Lucida Grande", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-primary;
+  color: $body-gray;
+  word-break: normal;
+  position: relative;
+  min-width: 100vw;
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.c-header {
+  display: flex;
+  // align-items: center;
+  width: 100%;
+  padding-left: $desktop-m;
+}
+
+.c-sidebar {}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+ 
+}
+
+// section {
+//   width: $width-innerpage;
+//   max-width: $width-innerpage;
+// }
+article {
+  max-width: 100%;
+}
+
+// SPA functionality
+.categoryPage {
+  display: none;
+}
+
+.pageActive {
+  display: block;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.cp_embed_iframe {
+  margin-bottom: $desktop-default;
+  height: $height-xl;
+}
+
+p {
+  width: 100%;
+  max-width: $width-xl;
+}
+
+b {
+  font-weight: 500;
+}
+
+.page-header__description, .page-header__info__description {
+  max-width: 100%;
+}
+
+#overview-introduction-subpage-code-cookbook {
+  li {
+    display: flex;
+    
+    span{
+      color: $brand;
+      margin-right: $desktop-s;
+    }
+  }
+
+  .code-cookbook-waar {
+    li {
+      font-weight: 500;
+    }
+  }
+}
+
+#overview-progress-subpage-current-milestones {
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

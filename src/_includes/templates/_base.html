@@ -1,0 +1,70 @@
+---
+pagePath: "{{parent}}/{{pageName}}"
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "sections/_head.html" %}
+  <link rel="stylesheet" href="https://unpkg.com/claymorphism-css/dist/clay.css" />
+</head>
+
+<body>
+ 
+
+  {%- from "system/component.njk" import component -%}
+  {{ component("atoms", "_logo", {
+        src: "/assets/img/logos/active-collective_logo_black.svg",
+        alt: "Active Collective in black letters",
+        text: "Home: Code Cookbook",
+        link: "/"
+     })}}
+  {{ component('sections', '_header', {
+    title: '🍽️ Code Cookbook',
+    description: 'Guide to the best-practices for building and deploying web applications.'
+    }) }}
+  {% include "sections/_sideBar.html" %}
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "sections/_footer.html" %}
+  <script>
+    (function(){
+        var s    = document.createElement('script');
+        var h    = document.querySelector('head') || document.body;
+        s.src    = 'https://acsbapp.com/apps/app/dist/js/app.js';
+        s.async  = true;
+        s.onload = function(){
+            acsbJS.init({
+                statementLink    : '',
+                footerHtml       : '',
+                hideMobile       : false,
+                hideTrigger      : false,
+                disableBgProcess : false,
+                language         : 'nl',
+                position         : 'right',
+                leadColor        : '#00000f',
+                triggerColor     : '#67c8f2',
+                triggerRadius    : '50%',
+                triggerPositionX : 'right',
+                triggerPositionY : 'bottom',
+                triggerIcon      : 'people',
+                triggerSize      : 'medium',
+                triggerOffsetX   : 20,
+                triggerOffsetY   : 20,
+                mobile           : {
+                    triggerSize      : 'small',
+                    triggerPositionX : 'right',
+                    triggerPositionY : 'center',
+                    triggerOffsetX   : 10,
+                    triggerOffsetY   : 0,
+                    triggerRadius    : '50%'
+                }
+            });
+        };
+        h.appendChild(s);
+    })();
+</script>
+</body>
+
+</html>
