@@ -1,4 +1,7 @@
 # Code Cookbook
+This is the version of Code Cookbook that's stripped of case content and ready to use.
+
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/817f5d6e-e0e5-4400-aa9d-5e2c7fbac983/deploy-status)](https://app.netlify.com/sites/code-cookbook/deploys)
 
  ... [link to live demo](https://code-cookbook.netlify.app/)-->
